@@ -1,0 +1,105 @@
+.container-op{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    width: 80vw;
+    margin-left: 8rem;
+}
+.header-op{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: "OpenSans Regular";
+}
+
+.header-op h1{
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: #5c5850;
+}
+
+.header-op strong{
+    font-family: "OpenSans Bold"
+}
+.header-op::after{
+    content: " ";
+    border-bottom: 5px solid #e2a426;
+    width: 1.5rem;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+.header-op p{
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    color: #4b4a48;
+}
+.op-item{
+    width: 285px;
+    height: min-content;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+}
+    
+.op-item h1{
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-family: "ProximaNova Bold";
+    font-size: 13px;
+    color:#5c5850;
+}
+.op-item p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "ProximaNova Regular";
+    line-height: 1.2rem;
+    font-size: 14px;
+    color:#999897;
+}
+.op-item img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 1rem;
+}
+
+.op-item a{
+    hyphens: auto;
+    text-transform: uppercase;
+    color:#df9f20;
+    font-family: "ProximaNova Regular";
+    font-size: 12px;
+    margin-left: -9px;
+}
+
+.op-item:hover{
+    -webkit-box-shadow: -1px 3px 25px -5px rgba(0,0,0,0.31);
+    -moz-box-shadow: -1px 3px 25px -5px rgba(0,0,0,0.31);
+    box-shadow: -1px 3px 25px -5px rgba(0,0,0,0.31);
+    border: none;
+    border-bottom: 2px solid #df9f20;
+}
+
+.container-op button{
+    position: absolute;
+    left: 390px;
+    top: 600px;
+    padding: 1rem 2.5rem 1.2rem;
+    color: #df9f20;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: "Montserrat Regular"
+}
+
+.container-op button:hover{
+    -webkit-box-shadow: -1px 3px 25px -5px rgba(0,0,0,0.31);
+    -moz-box-shadow: -1px 3px 25px -5px rgba(0,0,0,0.31);
+    box-shadow: -1px 3px 25px -5px rgba(0,0,0,0.31);
+}

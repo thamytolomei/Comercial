@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: "D-Din";
+    src: url("Fonts/D-Din.otf");
+}
+
+@font-face {
+    font-family: "D-Din Bold";
+    src: url("Fonts/D-DIN-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("Fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: "Montserrat Semibold";
+    src: url("Fonts/Montserrat-SemiBold.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("Fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans Bold";
+    src: url("Fonts/OpenSans-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "OpenSans Extrabold";
+    src: url("Fonts/OpenSans-ExtraBold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "ProximaNova Regular";
+    src: url("Fonts/ProximaNova-Regular.otf");
+}
+
+@font-face {
+    font-family: "ProximaNova Semibold";
+    src: url("Fonts/ProximaNova-SemiBold.otf");
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: "ProximaNova Bold";
+    src: url("Fonts/ProximaNova-Bold.otf");
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+strong{
+    color:#e6b452;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: white;
+    color:#e2a426;
+    font-weight: 600;
+    font-family: "ProximaNova Regular";
+    border: 1px solid #e2a426;
+}
+

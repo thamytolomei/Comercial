@@ -1,0 +1,56 @@
+@font-face {
+    font-family: D-Din;
+    src: local('D-Din') url("static/Fonts/D-Din.otf"), format("opentype");
+}
+
+@font-face {
+    font-family: "D-Din Bold";
+    src: local('D-Din-Bold') url("static/Fonts/D-DIN-Bold.otf"), format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: local('Montserrat-Regular') url("static/Fonts/Montserrat-Regular.otf"), format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat Semibold";
+    src: local('Monstserrat-Semibold') url("static/Fonts/Montserrat-SemiBold.otf"), format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "OpenSans Regular";
+    src: local('OpenSans-Regular') url("static/Fonts/OpenSans-Regular.ttf"), format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans Bold";
+    src: local('OpenSans-Bold') url("static/Fonts/OpenSans-Bold.ttf"), format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "OpenSans Extrabold";
+    src: local('OpenSans-ExtraBold') url("static/Fonts/OpenSans-ExtraBold.ttf"), format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "ProximaNova Regular";
+    src: local('ProximaNova-Regular') url("static/Fonts/ProximaNova-Regular.otf"), format("opentype");
+}
+
+@font-face {
+    font-family: "ProximaNova Semibold";
+    src: local('ProximaNova-Semibold') url("static/Fonts/ProximaNova-SemiBold.otf"), format("opentype");
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: "ProximaNova Bold";
+    src: local('ProximaNova-Bold') url("static/Fonts/ProximaNova-Bold.otf"), format("opentype");
+    font-weight: bold;
+}
