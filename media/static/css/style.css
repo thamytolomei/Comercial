@@ -863,13 +863,13 @@ header {
   -moz-box-shadow: -1px 3px 25px -5px rgba(0, 0, 0, 0.31);
   box-shadow: -1px 3px 25px -5px rgba(0, 0, 0, 0.31); }
 
-.sessao-inout {
+.sessao-Empresa {
   position: relative;
   float: left;
   width: 100vw;
   height: 100vh; }
 
-.inout-banner {
+.Empresa-banner {
   position: absolute;
   top: 4rem;
   left: 5rem;
@@ -877,12 +877,12 @@ header {
   font-weight: 100;
   color: #555151; }
 
-.inout-banner h1 {
+.Empresa-banner h1 {
   font-size: 2.5rem;
   font-weight: 300;
   width: 50rem; }
 
-.inout-banner h1::after {
+.Empresa-banner h1::after {
   position: absolute;
   left: 0px;
   content: "";
@@ -892,10 +892,10 @@ header {
   padding-top: 20px;
   border-bottom: 3px solid #e6b452; }
 
-.inout-banner strong {
+.Empresa-banner strong {
   font-family: "OpenSans Bold"; }
 
-.inout-banner button {
+.Empresa-banner button {
   position: absolute;
   top: 24rem;
   border: 1px solid #e2a426;
@@ -905,34 +905,34 @@ header {
   font-family: "OpenSans Regular";
   font-size: 13px; }
 
-.inout-banner button:hover {
+.Empresa-banner button:hover {
   -webkit-box-shadow: -1px 3px 25px -5px rgba(0, 0, 0, 0.31);
   -moz-box-shadow: -1px 3px 25px -5px rgba(0, 0, 0, 0.31);
   box-shadow: -1px 3px 25px -5px rgba(0, 0, 0, 0.31); }
 
-.inout-banner p {
+.Empresa-banner p {
   margin-top: 3rem;
   font-size: 15px;
   line-height: 25px; }
 
-.inout-wrapper {
+.Empresa-wrapper {
   overflow: hidden;
   width: 100%;
   height: 100%; }
 
-.inout-wrapper .seta {
+.Empresa-wrapper .seta {
   position: absolute;
   left: 843px;
   top: 179px;
   z-index: 3; }
 
-.inout-wrapper .money1 {
+.Empresa-wrapper .money1 {
   position: absolute;
   left: 63rem;
   top: 20rem;
   z-index: 3; }
 
-.inout-wrapper .money2 {
+.Empresa-wrapper .money2 {
   position: absolute;
   left: 50rem;
   top: 6rem; }
